@@ -25,11 +25,13 @@ struct ProfileView: View {
             }
             
             // profile options
-            VStack (spacing: 24) {
-                ProfileOptionRowView(imageName: "gear", title: "Settings")
-                ProfileOptionRowView(imageName: "gear", title: "Accesibility")
-                ProfileOptionRowView(imageName: "questionmark.circle", title: "Visit the help center")
-            }
+            //NavigationStack {
+                VStack (spacing: 24) {
+                    ProfileOptionRowView(imageName: "gear", title: "Settings")
+                    ProfileOptionRowView(imageName: "gear", title: "Accesibility")
+                    ProfileOptionRowView(imageName: "questionmark.circle", title: "Visit the help center")
+                }
+            //}
             .padding(.vertical)
             
             if authManager.userSessionId != nil {

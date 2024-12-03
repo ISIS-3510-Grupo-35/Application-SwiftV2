@@ -42,6 +42,8 @@ struct ListingMapView: View {
                             .onTapGesture { showDetails.toggle() }
                     }
                 }
+                
+                
             }
             
             Button {

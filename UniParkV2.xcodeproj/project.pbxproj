@@ -35,6 +35,8 @@
 		D530A0532CD3FB4700457FA8 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D530A0522CD3FB4700457FA8 /* FirebaseCrashlytics */; };
 		D530A0552CD3FB4700457FA8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D530A0542CD3FB4700457FA8 /* FirebaseDatabase */; };
 		D530A0572CD3FB4700457FA8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D530A0562CD3FB4700457FA8 /* FirebaseFirestore */; };
+		D566AB432CFEC0760097C8A6 /* Optimization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566AB422CFEC0720097C8A6 /* Optimization.swift */; };
+		D566AB452CFEC1520097C8A6 /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566AB442CFEC14E0097C8A6 /* ViewBuilder.swift */; };
 		D5B395112CC7FAC200F82BB6 /* UniParkV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B395102CC7FAC200F82BB6 /* UniParkV2App.swift */; };
 		D5B395132CC7FAC200F82BB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B395122CC7FAC200F82BB6 /* ContentView.swift */; };
 		D5B395152CC7FAC500F82BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B395142CC7FAC500F82BB6 /* Assets.xcassets */; };
@@ -75,6 +77,8 @@
 		D530A0402CD344B700457FA8 /* UserProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeaderView.swift; sourceTree = "<group>"; };
 		D530A0422CD344FE00457FA8 /* ProfileLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLoginView.swift; sourceTree = "<group>"; };
 		D530A0442CD347BD00457FA8 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		D566AB422CFEC0720097C8A6 /* Optimization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optimization.swift; sourceTree = "<group>"; };
+		D566AB442CFEC14E0097C8A6 /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
 		D5B3950D2CC7FAC200F82BB6 /* UniParkV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniParkV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B395102CC7FAC200F82BB6 /* UniParkV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniParkV2App.swift; sourceTree = "<group>"; };
 		D5B395122CC7FAC200F82BB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -377,6 +381,7 @@
 		D5B3952B2CC7FCC500F82BB6 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				D566AB422CFEC0720097C8A6 /* Optimization.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 		D5B395442CCB0F3100F82BB6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D566AB442CFEC14E0097C8A6 /* ViewBuilder.swift */,
 				D5B395302CC7FEC400F82BB6 /* ListingItemView.swift */,
 				D5B395342CC8419800F82BB6 /* ListingDetailView.swift */,
 				D52C44AD2CCF3FAE00A230E2 /* ListingMapView.swift */,
@@ -522,6 +528,7 @@
 				D5B395312CC7FEC400F82BB6 /* ListingItemView.swift in Sources */,
 				D52C44A82CCF0CAF00A230E2 /* ExploreViewModel.swift in Sources */,
 				D52C44B02CCF4BD400A230E2 /* ListingMapPreviewView.swift in Sources */,
+				D566AB432CFEC0760097C8A6 /* Optimization.swift in Sources */,
 				D52C44AC2CCF1E5800A230E2 /* Regions.swift in Sources */,
 				D5B3952F2CC7FD8300F82BB6 /* ExploreView.swift in Sources */,
 				D530A0452CD347BD00457FA8 /* CircularProfileImageView.swift in Sources */,
@@ -543,6 +550,7 @@
 				D52C44C82CD181E300A230E2 /* MockAuthService.swift in Sources */,
 				D52C44C12CD097F400A230E2 /* PrimaryTextFieldModifier.swift in Sources */,
 				D52C44B92CD094DA00A230E2 /* LoginView.swift in Sources */,
+				D566AB452CFEC1520097C8A6 /* ViewBuilder.swift in Sources */,
 				D52C44AA2CCF0CFB00A230E2 /* ExploreService.swift in Sources */,
 				D530A0412CD344B700457FA8 /* UserProfileHeaderView.swift in Sources */,
 			);
