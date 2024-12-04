@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0252CD582CFFC98E00ECCCCC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0252CD572CFFC98500ECCCCC /* .gitignore */; };
+		0252CD5A2CFFE2D000ECCCCC /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252CD592CFFE2D000ECCCCC /* ReviewView.swift */; };
+		0252CD5C2CFFE31900ECCCCC /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252CD5B2CFFE31900ECCCCC /* ReviewViewModel.swift */; };
+		0252CD5E2CFFE6D000ECCCCC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252CD5D2CFFE6D000ECCCCC /* UserViewModel.swift */; };
 		02B6234C2CFF589700ED80A1 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6234B2CFF589700ED80A1 /* CacheService.swift */; };
 		02B6234E2CFF5AE100ED80A1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6234D2CFF5AE100ED80A1 /* NetworkService.swift */; };
 		02B623512CFF6AF100ED80A1 /* ReservationDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B623502CFF6AF100ED80A1 /* ReservationDAO.swift */; };
@@ -70,6 +73,9 @@
 
 /* Begin PBXFileReference section */
 		0252CD572CFFC98500ECCCCC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0252CD592CFFE2D000ECCCCC /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		0252CD5B2CFFE31900ECCCCC /* ReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		0252CD5D2CFFE6D000ECCCCC /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		02B6234B2CFF589700ED80A1 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
 		02B6234D2CFF5AE100ED80A1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		02B623502CFF6AF100ED80A1 /* ReservationDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDAO.swift; sourceTree = "<group>"; };
@@ -190,6 +196,7 @@
 				D52C8D382CD48A3000BFD1FE /* WishlistLoginView.swift */,
 				D52C8D362CD4899900BFD1FE /* WishlistEmptyStateView.swift */,
 				D5B3953F2CCB059A00F82BB6 /* WishListView.swift */,
+				0252CD592CFFE2D000ECCCCC /* ReviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +220,8 @@
 				D52C44A72CCF0CAF00A230E2 /* ExploreViewModel.swift */,
 				02B6236C2CFF8DBA00ED80A1 /* ReservationViewModel.swift */,
 				02B6236E2CFF8DD500ED80A1 /* ParkingLotViewModel.swift */,
+				0252CD5B2CFFE31900ECCCCC /* ReviewViewModel.swift */,
+				0252CD5D2CFFE6D000ECCCCC /* UserViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -429,6 +438,7 @@
 				D5B3953C2CCB00E900F82BB6 /* ProfileView.swift in Sources */,
 				D52C8D372CD4899900BFD1FE /* WishlistEmptyStateView.swift in Sources */,
 				02B623652CFF76BA00ED80A1 /* ParkingLotDAOProtocol.swift in Sources */,
+				0252CD5E2CFFE6D000ECCCCC /* UserViewModel.swift in Sources */,
 				D5B3953E2CCB047D00F82BB6 /* ProfileOptionRowView.swift in Sources */,
 				D5B3953A2CC994EE00F82BB6 /* DestinationSearchView.swift in Sources */,
 				D5B395132CC7FAC200F82BB6 /* ContentView.swift in Sources */,
@@ -442,6 +452,7 @@
 				D530A0452CD347BD00457FA8 /* CircularProfileImageView.swift in Sources */,
 				D530A03F2CD341AB00457FA8 /* AuthServiceProtocol.swift in Sources */,
 				D5B395462CCB0F5D00F82BB6 /* Listing.swift in Sources */,
+				0252CD5C2CFFE31900ECCCCC /* ReviewViewModel.swift in Sources */,
 				D52C44BF2CD0950800A230E2 /* RegistrationViewModel.swift in Sources */,
 				D5B395402CCB059B00F82BB6 /* WishListView.swift in Sources */,
 				02B623672CFF7D5400ED80A1 /* User.swift in Sources */,
@@ -450,6 +461,7 @@
 				D52C8D392CD48A3000BFD1FE /* WishlistLoginView.swift in Sources */,
 				D5B395352CC8419800F82BB6 /* ListingDetailView.swift in Sources */,
 				02B6236F2CFF8DD500ED80A1 /* ParkingLotViewModel.swift in Sources */,
+				0252CD5A2CFFE2D000ECCCCC /* ReviewView.swift in Sources */,
 				D52C44C62CD09C2200A230E2 /* AuthenticationFormProtocol.swift in Sources */,
 				02B6235D2CFF70B800ED80A1 /* Reservation.swift in Sources */,
 				D5B395112CC7FAC200F82BB6 /* UniParkV2App.swift in Sources */,

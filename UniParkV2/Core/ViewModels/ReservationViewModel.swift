@@ -10,9 +10,9 @@ import FirebaseFirestore
 import FirebaseFirestore
 
 class ReservationViewModel: ObservableObject {
-    @Published var reservations: [Reservation] = []
-    @Published var currentReservation: Reservation?
-    @Published var errorMessage: String?
+    var reservations: [Reservation] = []
+    var currentReservation: Reservation?
+    var errorMessage: String?
 
     private let reservationDAO: ReservationDAOProtocol
 

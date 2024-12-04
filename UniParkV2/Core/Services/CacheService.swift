@@ -13,6 +13,7 @@ class CacheService {
     
     private let parkingLotsCache = NSCache<NSString, NSArray>()
     private let reservationsCache = NSCache<NSString, NSArray>()
+    private let usersCache = NSCache<NSString, NSArray>()
     
     private init() {}
     
@@ -37,7 +38,7 @@ class CacheService {
     }
     
     func getReservations() -> [Reservation]? {
-        return reservationsCache.object(forKey: "Reservations") as? [Reservation]
+        return reservationsCache.object(forKey: "reservations") as? [Reservation]
     }
     
     func getParkingLotsCache() -> [ParkingLot]? {
@@ -46,5 +47,27 @@ class CacheService {
 
     func setParkingLotsCache(_ parkingLots: [ParkingLot]) {
         parkingLotsCache.setObject(parkingLots as NSArray, forKey: "parkingLots" as NSString)
+    }
+    
+    func setUsersCache(_ users: [User]) {
+        do {
+            let data = try JSONEncoder().encode(users)
+            UserDefaults.standard.set(data, forKey: "usersCache")
+        } catch {
+            print("Error encoding users for cache: \(error)")
+        }
+    }
+    
+    func getUsersCache() -> [User]? {
+        guard let data = UserDefaults.standard.data(forKey: "usersCache") else { return nil }
+        do {
+            return try JSONDecoder().decode([User].self, from: data)
+        } catch {
+            print("Error decoding users from cache: \(error)")
+            return nil
+        }
+    }
+    func clearUsersCache() {
+        UserDefaults.standard.removeObject(forKey: "usersCache")
     }
 }

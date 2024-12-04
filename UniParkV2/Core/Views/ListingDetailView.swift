@@ -163,15 +163,19 @@ struct ListingDetailView: View {
                     Spacer()
                     
                     Button {
-                        
+                            print("Reserva realizada")
                     } label: {
                         Text("Reserve")
                             .foregroundStyle(.black)
                             .font(.subheadline)
                             .fontWeight(.semibold)
-                            .frame(width: 140,  height: 40)
-                            .background(.yellow)
+                            .frame(width: 140, height: 40)
+                            .background(NetworkService.shared.isOnline ? Color.yellow : Color.gray) 
                             .clipShape(RoundedRectangle(cornerRadius: 8))
+                    }
+                    .disabled(!NetworkService.shared.isOnline)
+                    .onAppear {
+                        NetworkService.shared.isOnline
                     }
                 }
                 .padding(.horizontal, 32)
