@@ -1,5 +1,5 @@
 //
-//  MapListingPreviewView.swift
+//  MapParkingLotPreviewView.swift
 //  UniParkV2
 //
 //  Created by Tomas Angel on 27/10/24.
@@ -7,34 +7,38 @@
 
 import SwiftUI
 
-struct ListingMapPreviewView: View {
-    let listing: Listing
+struct ParkingLotMapPreviewView: View {
+    let parkingLot: ParkingLot
     
     var body: some View {
         VStack {
             TabView {
-                ForEach (listing.imageURLs, id: \.self) { imageUrl in
-                    Image(imageUrl)
+                AsyncImage(url: URL(string: parkingLot.image))
+                { image in image
                         .resizable()
-                        .scaledToFill()
-                        .clipShape(Rectangle())
+                        .aspectRatio(contentMode: .fill)
+                        .frame(height: 200)
+                        .cornerRadius(12)
+                        .padding(.bottom)
+                } placeholder: {
+                    ProgressView()
+                        .frame(height: 200)
                 }
+                .frame(height: 200)
+                .tabViewStyle(.page)
             }
-            .frame(height: 200)
-            .tabViewStyle(.page)
-            
             HStack (alignment: .top) {
                 VStack (alignment: .leading) {
-                    Text("\(listing.title), \(listing.university)")
+                    Text("\(parkingLot.name)")
                         .fontWeight(.semibold)
-                    Text("\(listing.numberOfSpots) spots available")
+                    Text("\(parkingLot.capacity) spots available")
                     
                     HStack (spacing: 4){
-                        Text("\(listing.pricePlain) plain fee")
+                        Text("\(parkingLot.fullRate) plain fee")
                     }
                 }
                 Spacer()
-                Text("\(listing.rating)")
+                Text("\(parkingLot.review)")
             }
             .font(.footnote)
             .padding(8)
@@ -46,5 +50,5 @@ struct ListingMapPreviewView: View {
 }
 
 #Preview {
-    ListingMapPreviewView(listing: DeveloperPreview.shared.listings[0])
+    //ParkingLotMapPreviewView()
 }
