@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0238BE9C2D071AFE00D1A3E6 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BE9B2D071AFE00D1A3E6 /* CacheService.swift */; };
+		0238BE9E2D071B0700D1A3E6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BE9D2D071B0700D1A3E6 /* NetworkService.swift */; };
+		0238BEA12D071B4C00D1A3E6 /* ReservationDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEA02D071B4C00D1A3E6 /* ReservationDAO.swift */; };
+		0238BEA32D071B4F00D1A3E6 /* ReservationDAOProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEA22D071B4F00D1A3E6 /* ReservationDAOProtocol.swift */; };
+		0238BEA52D071B5200D1A3E6 /* ParkingLotDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEA42D071B5200D1A3E6 /* ParkingLotDAO.swift */; };
+		0238BEA72D071B5500D1A3E6 /* ParkingLotDAOProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEA62D071B5500D1A3E6 /* ParkingLotDAOProtocol.swift */; };
+		0238BEA92D071B5800D1A3E6 /* UserDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEA82D071B5800D1A3E6 /* UserDAO.swift */; };
+		0238BEAB2D071B5B00D1A3E6 /* UserDAOProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEAA2D071B5B00D1A3E6 /* UserDAOProtocol.swift */; };
+		0238BEAD2D071B6800D1A3E6 /* ReviewDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEAC2D071B6800D1A3E6 /* ReviewDAO.swift */; };
+		0238BEAF2D071B6B00D1A3E6 /* ReviewDAOProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEAE2D071B6B00D1A3E6 /* ReviewDAOProtocol.swift */; };
+		0238BEB32D071B9100D1A3E6 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEB22D071B9100D1A3E6 /* ReservationView.swift */; };
+		0238BEB62D071BB100D1A3E6 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEB52D071BB100D1A3E6 /* Review.swift */; };
+		0238BEB82D071BB400D1A3E6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEB72D071BB400D1A3E6 /* User.swift */; };
+		0238BEBA2D071BB900D1A3E6 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEB92D071BB900D1A3E6 /* Reservation.swift */; };
+		0238BEBC2D071BBC00D1A3E6 /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEBB2D071BBC00D1A3E6 /* ParkingLot.swift */; };
+		0238BEBE2D071BC500D1A3E6 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEBD2D071BC500D1A3E6 /* UserViewModel.swift */; };
+		0238BEC02D071BC900D1A3E6 /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEBF2D071BC900D1A3E6 /* ReviewViewModel.swift */; };
+		0238BEC62D071BD700D1A3E6 /* ParkingLotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEC52D071BD700D1A3E6 /* ParkingLotViewModel.swift */; };
+		0238BEC82D071C4800D1A3E6 /* ReservationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEC72D071C4800D1A3E6 /* ReservationDetailView.swift */; };
+		0238BECA2D071CAF00D1A3E6 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BEC92D071CAF00D1A3E6 /* FirestoreService.swift */; };
+		0238BECC2D071DD800D1A3E6 /* ReservationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BECB2D071DD800D1A3E6 /* ReservationViewModel.swift */; };
+		0238BECE2D071FAD00D1A3E6 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238BECD2D071FAD00D1A3E6 /* ReviewView.swift */; };
 		D52C44A82CCF0CAF00A230E2 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52C44A72CCF0CAF00A230E2 /* ExploreViewModel.swift */; };
 		D52C44AA2CCF0CFB00A230E2 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52C44A92CCF0CFB00A230E2 /* ExploreService.swift */; };
 		D52C44AC2CCF1E5800A230E2 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52C44AB2CCF1E5800A230E2 /* Regions.swift */; };
@@ -56,6 +78,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0238BE9B2D071AFE00D1A3E6 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		0238BE9D2D071B0700D1A3E6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0238BEA02D071B4C00D1A3E6 /* ReservationDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDAO.swift; sourceTree = "<group>"; };
+		0238BEA22D071B4F00D1A3E6 /* ReservationDAOProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDAOProtocol.swift; sourceTree = "<group>"; };
+		0238BEA42D071B5200D1A3E6 /* ParkingLotDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotDAO.swift; sourceTree = "<group>"; };
+		0238BEA62D071B5500D1A3E6 /* ParkingLotDAOProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotDAOProtocol.swift; sourceTree = "<group>"; };
+		0238BEA82D071B5800D1A3E6 /* UserDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDAO.swift; sourceTree = "<group>"; };
+		0238BEAA2D071B5B00D1A3E6 /* UserDAOProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDAOProtocol.swift; sourceTree = "<group>"; };
+		0238BEAC2D071B6800D1A3E6 /* ReviewDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDAO.swift; sourceTree = "<group>"; };
+		0238BEAE2D071B6B00D1A3E6 /* ReviewDAOProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDAOProtocol.swift; sourceTree = "<group>"; };
+		0238BEB22D071B9100D1A3E6 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		0238BEB52D071BB100D1A3E6 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		0238BEB72D071BB400D1A3E6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0238BEB92D071BB900D1A3E6 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		0238BEBB2D071BBC00D1A3E6 /* ParkingLot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
+		0238BEBD2D071BC500D1A3E6 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		0238BEBF2D071BC900D1A3E6 /* ReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		0238BEC52D071BD700D1A3E6 /* ParkingLotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotViewModel.swift; sourceTree = "<group>"; };
+		0238BEC72D071C4800D1A3E6 /* ReservationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailView.swift; sourceTree = "<group>"; };
+		0238BEC92D071CAF00D1A3E6 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		0238BECB2D071DD800D1A3E6 /* ReservationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewModel.swift; sourceTree = "<group>"; };
+		0238BECD2D071FAD00D1A3E6 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		D52C44A72CCF0CAF00A230E2 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		D52C44A92CCF0CFB00A230E2 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
 		D52C44AB2CCF1E5800A230E2 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
@@ -116,6 +160,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0238BE9A2D071AD500D1A3E6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0238BE9B2D071AFE00D1A3E6 /* CacheService.swift */,
+				0238BE9D2D071B0700D1A3E6 /* NetworkService.swift */,
+				0238BEC92D071CAF00D1A3E6 /* FirestoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0238BE9F2D071B3F00D1A3E6 /* DAOs */ = {
+			isa = PBXGroup;
+			children = (
+				0238BEA02D071B4C00D1A3E6 /* ReservationDAO.swift */,
+				0238BEA22D071B4F00D1A3E6 /* ReservationDAOProtocol.swift */,
+				0238BEAC2D071B6800D1A3E6 /* ReviewDAO.swift */,
+				0238BEAE2D071B6B00D1A3E6 /* ReviewDAOProtocol.swift */,
+				0238BEA42D071B5200D1A3E6 /* ParkingLotDAO.swift */,
+				0238BEA62D071B5500D1A3E6 /* ParkingLotDAOProtocol.swift */,
+				0238BEA82D071B5800D1A3E6 /* UserDAO.swift */,
+				0238BEAA2D071B5B00D1A3E6 /* UserDAOProtocol.swift */,
+			);
+			path = DAOs;
+			sourceTree = "<group>";
+		};
+		0238BEB02D071B7700D1A3E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0238BECD2D071FAD00D1A3E6 /* ReviewView.swift */,
+				0238BEB22D071B9100D1A3E6 /* ReservationView.swift */,
+				0238BEC72D071C4800D1A3E6 /* ReservationDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0238BEB12D071B7E00D1A3E6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0238BEC52D071BD700D1A3E6 /* ParkingLotViewModel.swift */,
+				0238BECB2D071DD800D1A3E6 /* ReservationViewModel.swift */,
+				0238BEBD2D071BC500D1A3E6 /* UserViewModel.swift */,
+				0238BEBF2D071BC900D1A3E6 /* ReviewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0238BEB42D071BA800D1A3E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0238BEB52D071BB100D1A3E6 /* Review.swift */,
+				0238BEB72D071BB400D1A3E6 /* User.swift */,
+				0238BEB92D071BB900D1A3E6 /* Reservation.swift */,
+				0238BEBB2D071BBC00D1A3E6 /* ParkingLot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B391DF9EFE71B29CA872A00D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +406,11 @@
 		D5B395232CC7FC5300F82BB6 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0238BEB42D071BA800D1A3E6 /* Models */,
+				0238BEB12D071B7E00D1A3E6 /* ViewModels */,
+				0238BEB02D071B7700D1A3E6 /* Views */,
+				0238BE9F2D071B3F00D1A3E6 /* DAOs */,
+				0238BE9A2D071AD500D1A3E6 /* Services */,
 				D52C44B12CD0946F00A230E2 /* Authentication */,
 				D5B395362CC8421900F82BB6 /* Components */,
 				D5B395272CC7FCA900F82BB6 /* Explore */,
@@ -516,32 +622,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0238BECA2D071CAF00D1A3E6 /* FirestoreService.swift in Sources */,
+				0238BEC82D071C4800D1A3E6 /* ReservationDetailView.swift in Sources */,
 				D52C44BB2CD094E600A230E2 /* RegistrationView.swift in Sources */,
 				D5B395382CC8423C00F82BB6 /* ListingImageCarouselView.swift in Sources */,
 				D52C44CD2CD2FD0A00A230E2 /* AuthManager.swift in Sources */,
 				D52C44BD2CD094FA00A230E2 /* LoginViewModel.swift in Sources */,
+				0238BEBE2D071BC500D1A3E6 /* UserViewModel.swift in Sources */,
 				D5B3953C2CCB00E900F82BB6 /* ProfileView.swift in Sources */,
+				0238BEA72D071B5500D1A3E6 /* ParkingLotDAOProtocol.swift in Sources */,
 				D52C8D372CD4899900BFD1FE /* WishlistEmptyStateView.swift in Sources */,
 				D566AB472CFF80E20097C8A6 /* Firebase.swift in Sources */,
 				D5B3953E2CCB047D00F82BB6 /* ProfileOptionRowView.swift in Sources */,
 				D5B3953A2CC994EE00F82BB6 /* DestinationSearchView.swift in Sources */,
 				D5B395132CC7FAC200F82BB6 /* ContentView.swift in Sources */,
+				0238BEC62D071BD700D1A3E6 /* ParkingLotViewModel.swift in Sources */,
 				D5B395312CC7FEC400F82BB6 /* ListingItemView.swift in Sources */,
+				0238BEAD2D071B6800D1A3E6 /* ReviewDAO.swift in Sources */,
+				0238BEB32D071B9100D1A3E6 /* ReservationView.swift in Sources */,
 				D52C44A82CCF0CAF00A230E2 /* ExploreViewModel.swift in Sources */,
+				0238BEAB2D071B5B00D1A3E6 /* UserDAOProtocol.swift in Sources */,
 				D52C44B02CCF4BD400A230E2 /* ListingMapPreviewView.swift in Sources */,
 				D52C44AC2CCF1E5800A230E2 /* Regions.swift in Sources */,
+				0238BE9C2D071AFE00D1A3E6 /* CacheService.swift in Sources */,
 				D5B3952F2CC7FD8300F82BB6 /* ExploreView.swift in Sources */,
 				D530A0452CD347BD00457FA8 /* CircularProfileImageView.swift in Sources */,
 				D530A03F2CD341AB00457FA8 /* AuthServiceProtocol.swift in Sources */,
+				0238BEA92D071B5800D1A3E6 /* UserDAO.swift in Sources */,
 				D5B395462CCB0F5D00F82BB6 /* Listing.swift in Sources */,
 				D52C44BF2CD0950800A230E2 /* RegistrationViewModel.swift in Sources */,
 				D5B395402CCB059B00F82BB6 /* WishListView.swift in Sources */,
+				0238BEBC2D071BBC00D1A3E6 /* ParkingLot.swift in Sources */,
+				0238BEC02D071BC900D1A3E6 /* ReviewViewModel.swift in Sources */,
 				D52C44C42CD0988800A230E2 /* PrimaryButtonModifier.swift in Sources */,
 				D5B395332CC8050600F82BB6 /* SearchAndFilterBar.swift in Sources */,
+				0238BEB82D071BB400D1A3E6 /* User.swift in Sources */,
 				D52C8D392CD48A3000BFD1FE /* WishlistLoginView.swift in Sources */,
 				D5B395352CC8419800F82BB6 /* ListingDetailView.swift in Sources */,
 				D52C44C62CD09C2200A230E2 /* AuthenticationFormProtocol.swift in Sources */,
 				D5B395112CC7FAC200F82BB6 /* UniParkV2App.swift in Sources */,
+				0238BECC2D071DD800D1A3E6 /* ReservationViewModel.swift in Sources */,
 				D530A0432CD344FE00457FA8 /* ProfileLoginView.swift in Sources */,
 				D52C44CB2CD2FBDF00A230E2 /* FirebaseAuthService.swift in Sources */,
 				D5B395422CCB071100F82BB6 /* MainTabView.swift in Sources */,
@@ -552,7 +672,15 @@
 				D52C44B92CD094DA00A230E2 /* LoginView.swift in Sources */,
 				D52C44AA2CCF0CFB00A230E2 /* ExploreService.swift in Sources */,
 				D530A0412CD344B700457FA8 /* UserProfileHeaderView.swift in Sources */,
+				0238BEA32D071B4F00D1A3E6 /* ReservationDAOProtocol.swift in Sources */,
+				0238BEBA2D071BB900D1A3E6 /* Reservation.swift in Sources */,
+				0238BEA12D071B4C00D1A3E6 /* ReservationDAO.swift in Sources */,
+				0238BEB62D071BB100D1A3E6 /* Review.swift in Sources */,
+				0238BECE2D071FAD00D1A3E6 /* ReviewView.swift in Sources */,
+				0238BEAF2D071B6B00D1A3E6 /* ReviewDAOProtocol.swift in Sources */,
+				0238BE9E2D071B0700D1A3E6 /* NetworkService.swift in Sources */,
 				D566AB492CFFB7130097C8A6 /* AuthViewModel.swift in Sources */,
+				0238BEA52D071B5200D1A3E6 /* ParkingLotDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
